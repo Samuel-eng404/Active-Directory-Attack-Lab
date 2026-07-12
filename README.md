@@ -36,7 +36,7 @@ The environment consists of:
 - Hacker Machine
 ## Lab Architecture
 
-![Lab Architecture](Images/Architecture.png)
+Images/Architecture.png
 
 ---
 
