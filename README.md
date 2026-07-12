@@ -1,18 +1,31 @@
-# Active Directory Attack Lab
+<p align="center">
+  <h1 align="center">Active Directory Lab</h1>
 
-![Banner](Images/Banner.png)
+  <img src="Images/Banner.png" width="100%">
 
-A complete hands-on Active Directory lab that demonstrates how common Active Directory attacks are performed, how they work internally, and how they can be mitigated.
+  <p align="center">
+    A complete hands-on Active Directory lab demonstrating modern attack techniques, Kerberos abuse, credential theft, and lateral movement in an enterprise environment.
+  </p>
+</p>
 
 > ⚠️ **Disclaimer**
 >
-> This project was created for educational purposes only inside an isolated virtual lab environment. It is intended to help security professionals, students, and defenders understand Active Directory attack techniques and corresponding mitigations.
+> This project was created for educational purposes only inside an isolated virtual lab environment. It is intended to help students, penetration testers, and defenders better understand Active Directory attack techniques and their corresponding mitigations.
 
 ---
 
-# Project Overview
+# 📖 Full Documentation
 
-This project simulates a realistic enterprise Active Directory environment (EvilCorp.local) containing multiple workstations, servers, users, organizational units, and services.
+The complete walkthrough, explanations, screenshots, and attack demonstrations are available on Notion.
+
+**🔗 Notion Documentation:**  
+> *Replace this with your public Notion link*
+
+---
+
+# 📌 Project Overview
+
+This project simulates a realistic enterprise Active Directory environment (**EvilCorp.local**) containing multiple workstations, servers, users, organizational units, and services.
 
 The objective is to understand how attackers compromise Windows domains by abusing authentication protocols, Active Directory misconfigurations, credential attacks, and lateral movement techniques.
 
@@ -26,7 +39,7 @@ Each attack includes:
 
 ---
 
-# Lab Infrastructure
+# 🖥️ Lab Infrastructure
 
 The environment consists of:
 
@@ -35,13 +48,15 @@ The environment consists of:
 - HR Workstation
 - IT Workstation
 - Management Workstation
-- Hacker Machine
+- Hacker Machine (Kali Linux)
 
-![Lab Architecture](Images/Architecture.png)
+<p align="center">
+<img src="Images/Architecture.png" width="95%">
+</p>
 
 ---
 
-# Demonstrated Attacks
+# 🔥 Demonstrated Attacks
 
 - Enumeration
 - Password Attacks
@@ -60,9 +75,10 @@ The environment consists of:
   - WMI
   - WinRM
   - PsExec
+
 ---
 
-# Topics Covered
+# 📚 Topics Covered
 
 - Active Directory Administration
 - Kerberos Authentication
@@ -79,7 +95,7 @@ The environment consists of:
 
 ---
 
-# Tools Used
+# 🛠️ Tools Used
 
 ### Offensive Security
 
@@ -96,51 +112,57 @@ The environment consists of:
 
 ---
 
-# Learning Objectives
+# 🎯 Learning Objectives
 
 This lab demonstrates:
 
-- How Active Directory authentication works
+- Active Directory enumeration
 - Kerberos internals
+- NTLM authentication
 - Credential theft techniques
 - Kerberos ticket attacks
 - Credential replay attacks
 - Active Directory replication abuse
-- Remote administration abuse
 - Lateral movement
 - Privilege escalation
 - Defensive mitigations
 
 ---
 
-# Repository Structure
+# 📂 Repository Structure
 
-```
+```text
 Active-Directory-Lab/
 │
 ├── Documentation/
-│   ├── Project Overview
-│   ├── Lab Setup
-│   ├── Authentication
-│   ├── Credential Attacks
-│   ├── Kerberos Attacks
-│   ├── Lateral Movement
-│   └── Mitigations
 │
 ├── Images/
+│   ├── Architecture.png
+│   ├── Banner.png
+│   ├── Kerberos Authentication.png
+│   └── Mitigations.png
 │
 ├── Scripts/
+│   ├── Enumeration.ps1
+│   ├── EvilCorp Portal.html
+│   └── Reverse_Shell.py
+│
+├── Wordlists/
+│   ├── Passwords.txt
+│   └── Usernames.txt
 │
 ├── Tools/
+│   └── Lab_Tools.7z
+│      Password: ActiveDirectoryLab
 │
 └── README.md
 ```
 
 ---
 
-# MITRE ATT&CK Coverage
+# 🛡️ MITRE ATT&CK Coverage
 
-This project covers techniques from multiple MITRE ATT&CK tactics, including:
+This project covers techniques across multiple MITRE ATT&CK tactics, including:
 
 - Initial Access
 - Credential Access
@@ -151,10 +173,12 @@ This project covers techniques from multiple MITRE ATT&CK tactics, including:
 
 ---
 
-# Author
+# 👨‍💻 Author
 
-**Samuel4O4**
+## Samuel4O4
+
+*Cybersecurity Geek*
 
 ---
 
-⭐ If you found this project useful, consider giving the repository a star.
+⭐ **If you found this project useful, consider giving the repository a star!**
