@@ -92,15 +92,18 @@ The following diagram illustrates the complete Kerberos authentication workflow,
 
 # 📚 Topics Covered
 
-- Active Directory Administration
-- Kerberos Authentication
-- NTLM Authentication
-- LDAP Enumeration
-- Service Principal Names (SPNs)
-- Kerberos Tickets (TGT & TGS)
-- LSASS Credential Dumping
-- Active Directory Replication
-- Lateral Movement
+This lab demonstrates:
+
+- Active Directory enumeration
+- Kerberos internals
+- NTLM authentication
+- Credential theft techniques
+- Kerberos ticket attacks
+- Credential replay attacks
+- Active Directory replication abuse
+- Lateral movement
+- Privilege escalation
+- Defensive mitigations
 
 ---
 
@@ -118,23 +121,6 @@ The following diagram illustrates the complete Kerberos authentication workflow,
 ### Password Cracking
 
 - Hashcat
-
----
-
-# 🎯 Learning Objectives
-
-This lab demonstrates:
-
-- Active Directory enumeration
-- Kerberos internals
-- NTLM authentication
-- Credential theft techniques
-- Kerberos ticket attacks
-- Credential replay attacks
-- Active Directory replication abuse
-- Lateral movement
-- Privilege escalation
-- Defensive mitigations
 
 ---
 
