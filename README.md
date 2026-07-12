@@ -56,6 +56,18 @@ The environment consists of:
 
 ---
 
+# 🔐 Kerberos Authentication Workflow
+
+Understanding the Kerberos authentication process is essential before exploring attacks such as **AS-REP Roasting**, **Kerberoasting**, **Pass-the-Ticket**, **Silver Ticket**, **Golden Ticket**, and **Overpass-the-Hash**.
+
+The following diagram illustrates the complete Kerberos authentication workflow, including the exchange of **AS-REQ**, **AS-REP**, **TGS-REQ**, and **TGS-REP** messages between the client and the Key Distribution Center (KDC).
+
+<p align="center">
+  <img src="Images/Kerberos Authentication.png" width="95%">
+</p>
+
+---
+
 # 🔥 Demonstrated Attacks
 
 - Enumeration
@@ -160,7 +172,7 @@ Active-Directory-Lab/
 
 ---
 
-# 🛡️ MITRE ATT&CK Coverage
+# 🛡️ MITRE ATT&CK Coverage & Mitigation
 
 This project covers techniques across multiple MITRE ATT&CK tactics, including:
 
@@ -170,6 +182,12 @@ This project covers techniques across multiple MITRE ATT&CK tactics, including:
 - Lateral Movement
 - Privilege Escalation
 - Defense Evasion
+
+Also highlights the primary defensive measures for each attack. The following matrix summarizes the recommended mitigations that help reduce the risk of compromise in an Active Directory environment.
+
+<p align="center">
+  <img src="Images/Mitigations.png" width="95%">
+</p>
 
 ---
 
