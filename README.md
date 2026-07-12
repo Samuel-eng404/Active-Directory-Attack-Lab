@@ -21,8 +21,6 @@ Each attack includes:
 - Internal protocol explanation
 - Step-by-step execution
 - Screenshots
-- Detection considerations
-- Mitigation techniques
 
 ---
 
