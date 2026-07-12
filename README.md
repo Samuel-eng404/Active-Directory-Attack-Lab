@@ -34,6 +34,9 @@ The environment consists of:
 - IT Workstation
 - Management Workstation
 - Hacker Machine
+## Lab Architecture
+
+![Lab Architecture](Images/Lab_Architecture.png)
 
 ---
 
