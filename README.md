@@ -33,7 +33,7 @@ The environment consists of:
 - HR Workstation
 - IT Workstation
 - Management Workstation
-- Hacker Machine (Kali Linux)
+- Hacker Machine
 
 ---
 
