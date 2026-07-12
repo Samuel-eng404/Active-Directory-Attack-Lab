@@ -58,9 +58,9 @@ The environment consists of:
 
 # 🔐 Kerberos Authentication Workflow
 
-Understanding the Kerberos authentication process is essential before exploring attacks such as **AS-REP Roasting**, **Kerberoasting**, **Pass-the-Ticket**, **Silver Ticket**, **Golden Ticket**, and **Overpass-the-Hash**.
+Understanding the Kerberos authentication process is essential before exploring the attacks.
 
-The following diagram illustrates the complete Kerberos authentication workflow, including the exchange of **AS-REQ**, **AS-REP**, **TGS-REQ**, and **TGS-REP** messages between the client and the Key Distribution Center (KDC).
+The following diagram illustrates the complete Kerberos authentication workflow,and the tickets exchange between the client and the Key Distribution Center (KDC).
 
 <p align="center">
   <img src="Images/Kerberos Authentication.png" width="95%">
