@@ -1,5 +1,7 @@
 # Active Directory Attack Lab
 
+!.(Images/Banner.png)
+
 A complete hands-on Active Directory lab that demonstrates how common Active Directory attacks are performed, how they work internally, and how they can be mitigated.
 
 > ⚠️ **Disclaimer**
@@ -34,30 +36,30 @@ The environment consists of:
 - IT Workstation
 - Management Workstation
 - Hacker Machine
+
 ![Lab Architecture](Images/Architecture.png)
-![Lab Architectur](Banner.png)
 
 ---
 
 # Demonstrated Attacks
 
-- Password Brute Force
-- Password Spraying
+- Enumeration
+- Password Attacks
+  - Brute Force
+  - Password Spraying
 - AS-REP Roasting
 - Kerberoasting
 - Pass-the-Hash
 - Overpass-the-Hash
 - Pass-the-Ticket
-- Silver Ticket
-- Golden Ticket
 - DCSync
 - DCShadow
+- Silver Ticket
+- Golden Ticket
 - Lateral Movement
   - WMI
   - WinRM
   - PsExec
-  - DCOM
-
 ---
 
 # Topics Covered
