@@ -1,6 +1,6 @@
 # Active Directory Attack Lab
 
-!.(Images/Banner.png)
+![Banner](Images/Banner.png)
 
 A complete hands-on Active Directory lab that demonstrates how common Active Directory attacks are performed, how they work internally, and how they can be mitigated.
 
@@ -88,29 +88,11 @@ The environment consists of:
 - PowerView
 - CrackMapExec
 - Evil-WinRM
-- Impacket
 - PsExec
 
 ### Password Cracking
 
 - Hashcat
-- RockYou Wordlist
-
-### Enumeration
-
-- PowerShell
-- LDAP
-- ADSI
-- Custom Enumeration Script
-
-### Windows
-
-- Process Hacker
-- Klist
-- IIS
-- Active Directory Users and Computers
-- DNS Manager
-- Group Policy Management
 
 ---
 
@@ -127,7 +109,6 @@ This lab demonstrates:
 - Remote administration abuse
 - Lateral movement
 - Privilege escalation
-- Persistence techniques
 - Defensive mitigations
 
 ---
@@ -157,25 +138,6 @@ Active-Directory-Lab/
 
 ---
 
-# Skills Demonstrated
-
-- Active Directory
-- Windows Administration
-- Offensive Security
-- Red Team
-- Kerberos
-- NTLM
-- LDAP
-- PowerShell
-- Windows Internals
-- Authentication Protocols
-- Privilege Escalation
-- Lateral Movement
-- Persistence
-- Credential Access
-
----
-
 # MITRE ATT&CK Coverage
 
 This project covers techniques from multiple MITRE ATT&CK tactics, including:
@@ -185,18 +147,13 @@ This project covers techniques from multiple MITRE ATT&CK tactics, including:
 - Discovery
 - Lateral Movement
 - Privilege Escalation
-- Persistence
 - Defense Evasion
 
 ---
 
 # Author
 
-**Samuel Adham**
-
-Communication & Electronics Engineer
-
-Cybersecurity | Active Directory Security | Red Team | Windows Internals
+**Samuel4O4**
 
 ---
 
